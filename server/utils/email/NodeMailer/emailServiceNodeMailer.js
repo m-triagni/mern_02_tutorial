@@ -4,12 +4,12 @@ require('dotenv').config();
 
 // create reusable transporter object using the default SMTP transport
 let transporter = nodemailer.createTransport({
-    host: 'smtp-relay.sendinblue.com',
-    port: 587,
+    host: process.env.SEND_IN_BLUE_HOST,
+    port: process.env.SEND_IN_BLUE_PORT,
     secure: false, // true for 465, false for other ports
     auth: {
         user: process.env.EMAIL_FROM, // generated ethereal user
-        pass: 'Sq5UxKOXEvcRtb6p'  // generated ethereal password
+        pass: process.env.SEND_IN_BLUE_PASS  // generated ethereal password
     },
     tls:{
         rejectUnauthorized:false
