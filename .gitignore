@@ -1,0 +1,9 @@
+client/node_modules/
+client/.next/
+client/next.config.js
+client/next.config.prod.js
+
+server/node_modules/
+server/.env.local
+server/.env
+server/.env.prod

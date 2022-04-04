@@ -1,0 +1,32 @@
+{
+  "name": "front-end-mern-users",
+  "version": "1.0.0",
+  "description": "Project contains MERN architecture with common use case and using AWS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "Maria Triagni",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.1",
+    "html-to-react": "^1.4.8",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "next": "^9.5.5",
+    "nprogress": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-image-file-resizer": "^0.2.1",
+    "react-infinite-scroller": "^1.2.4",
+    "react-modal": "^3.14.4",
+    "react-quill": "^1.3.3",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^6.2.2"
+  }
+}
